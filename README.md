@@ -1,13 +1,13 @@
 # 🚀 GLR Insurance Automation Pipeline  
-### **AI-Powered Insurance Template Filling (Streamlit + OpenRouter + GPT-4o-mini)**
+### **AI-Powered Template Filling (Streamlit + OpenRouter + GPT-4o-mini)**
 
-This project automatically fills USAA GLR insurance templates using multiple PDF photo reports and an LLM-driven semantic extraction pipeline. It supports multiple extraction modes (High-Accuracy, Strict Validation, Field Audit, Multi-LLM Voting) and produces a fully completed `.docx` output file with near-zero missing fields.
+This project automatically fills GLR templates using multiple PDF photo reports and an LLM-driven semantic extraction pipeline. It supports multiple extraction modes (High-Accuracy, Strict Validation, Field Audit, Multi-LLM Voting) and produces a fully completed `.docx` output file with near-zero missing fields.
 
 ---
 
 ## ✨ Features
 
-- Upload a `.docx` insurance GLR template with placeholders like `[INSURED_NAME]`
+- Upload a `.docx` GLR template with placeholders like `[INSURED_NAME]`
 - Upload one or more PDF photo reports (text-based)
 - Automatically extract and interpret insurance-specific fields using LLMs
 - 4 AI extraction engines:
